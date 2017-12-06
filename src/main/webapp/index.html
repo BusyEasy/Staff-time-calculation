@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>TimeSheet</title>
+
+    <link rel="stylesheet" type="text/css" href="css/mono.css">
+    <link rel="stylesheet" href="http://intern-dev.arta.kz/Synergy/js/form.player.css"/>
+    <script src="http://intern-dev.arta.kz/Synergy/js/vendor.js" type="text/javascript"></script>
+    <script src="http://intern-dev.arta.kz/Synergy/js/form.player.js" type="text/javascript"></script>
+
+</head>
+<body>
+
+<div id="myModal" class="modal">
+
+
+    <div id="block-external" class="modal-content">
+
+        <div id="block-header">
+
+            <p align="center" id="txt-log" class="log-auth">Введите логин и пароль</p>
+
+
+        </div>
+
+        <div id="block-auth" >
+
+            <p id="id-correct"></p>
+
+              <form accept-charset="UTF-8">
+                <input class = "logs" id="login" type="text" name="login" value="" placeholder="Логин">
+                <br>
+                <input  class="pass" id="password" type="password" name="password" value="" placeholder="Пароль">
+                <br/>
+
+                <input value="Войти" type="button" name="button-request" id="button" class="btn">
+              </form>
+
+        </div>
+
+
+    </div>
+
+</div>
+<div id="block-player">
+
+    <input id="saveFormbtn" class="saveClass" value="Сохранить" type="submit">
+
+    <div id="block-save">
+
+
+        <p id="message-save"></p>
+
+    </div>
+
+</div>
+
+<script type="text/javascript" src="js/TimeJs.js"></script>
+
+</body>
+</html>
